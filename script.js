@@ -1,6 +1,6 @@
 var isDate = function (input) {
   //   write your code here
-	f (input instanceof Date) {
+	if (input instanceof Date) {
     // If the input is already a Date object, return true
     return !isNaN(input.getTime());
   } else if (typeof input === 'string' || typeof input === 'number') {
@@ -10,6 +10,7 @@ var isDate = function (input) {
   } else {
     // If the input is neither a Date, string, nor number, return false
     return false;
+
 		
   }
 };
