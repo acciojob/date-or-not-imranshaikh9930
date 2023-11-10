@@ -7,12 +7,7 @@ var isDate = function (input) {
     // If the input is a string or a number, try parsing it into a Date object
     const parsedDate = new Date(input);
     return !isNaN(parsedDate.getTime());
-  } else {
-    // If the input is neither a Date, string, nor number, return false
-    return false;
-
-		
-  }
+  } 
 };
 
 // Do not change the code below.
